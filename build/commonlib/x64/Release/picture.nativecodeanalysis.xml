@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\semanticmapcoder\semanticmapcodingv7\source\commonlib</FILEPATH>
+      <FILENAME>picture.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Picture::m_height' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Picture::{ctor}</FUNCTION>
+    <DECORATED>??0Picture@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\semanticmapcoder\semanticmapcodingv7\source\commonlib</FILEPATH>
+      <FILENAME>picture.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Picture::m_numColor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Picture::{ctor}</FUNCTION>
+    <DECORATED>??0Picture@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\semanticmapcoder\semanticmapcodingv7\source\commonlib</FILEPATH>
+      <FILENAME>picture.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Picture::value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Picture::{ctor}</FUNCTION>
+    <DECORATED>??0Picture@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\semanticmapcoder\semanticmapcodingv7\source\commonlib</FILEPATH>
+      <FILENAME>picture.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Picture::m_width' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Picture::{ctor}</FUNCTION>
+    <DECORATED>??0Picture@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\semanticmapcoder\semanticmapcodingv7\source\commonlib</FILEPATH>
+      <FILENAME>picture.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Picture::createPicture</FUNCTION>
+    <DECORATED>?createPicture@Picture@@QEAAXPEAEHHPEAHH@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\semanticmapcoder\semanticmapcodingv7\source\commonlib</FILEPATH>
+      <FILENAME>picture.cpp</FILENAME>
+      <LINE>84</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Picture::createPicture</FUNCTION>
+    <DECORATED>?createPicture@Picture@@QEAAXPEAEHHHHPEAHH@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
