@@ -1,5 +1,5 @@
 # CC-SMC
-Chain Coding-Based Segmentation Map Lossless Compression (CC-SMC) is a software for segmentation map lossless compression.
+Chain Coding-Based Segmentation Map Lossless Compression (CC-SMC) is a software for segmentation map lossless compression. The platform is VS2017.
 
   There are 9 kinds of commands.  
   -h(help information)  
